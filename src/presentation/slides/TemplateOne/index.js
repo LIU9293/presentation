@@ -13,8 +13,9 @@ const InnerContainer = styled.div`
   display: flex;
   flex: 1;
   height: 100%;
-  padding: 80px;
+  padding: 100px;
   flex-direction: column;
+  align-items: center;
 `;
 
 export default class TemplateOne extends React.PureComponent {
